@@ -87,6 +87,24 @@ an existing project.
     $ flutter build ios --config-only
     ```
 
+1. Make sure your **Minimun Deployments** match
+
+   *   Open the **project navigator**
+        (**View** > **Navigators** > **Project**).
+    
+    *   In the **project navigator**, at the top, select
+        **Runner**.
+
+    *   In the main window under **TARGETS**, select
+        **Runner**.
+
+    *   Check your **Minimun Deployments** value to be set properly to one of the available in your dropdown. e.g: *15.6*.
+  
+    *   In the main window under **TARGETS**, select
+        **ShareExtension**.
+
+    *   Make sure your **Minimun Deployments** matches the one you selected for **Runner**
+
 1.  [Test your app with the simulator][].
 
 When you add a new app extension, Xcode generates
